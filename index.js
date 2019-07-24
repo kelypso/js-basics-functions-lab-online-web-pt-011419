@@ -18,7 +18,7 @@ function calculatesFarePrice (start, end) {
     case distance < 400:
       returns 0;
       break;
-    case distance < 400:
+    case distance > 400 && < 2500:
       returns 0.02 * distance;
       break;
   }
