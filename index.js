@@ -8,9 +8,9 @@ function distanceFromHqInFeet (distance) {
 }
 
 function distanceTravelledInFeet () {
-  
+
 }
 
 function calculatesFarePrice () {
-  
+
 }
