@@ -22,7 +22,10 @@ function calculatesFarePrice (start, end) {
       returns 0.02 * distance;
       break;
     case distance > 2000 && < 2500:
-      returns 0.02 * distance;
+      returns 0.25 * distance;
       break;
+    case distance > 2500:
+      return 'cannot travel that far'
+    default:
   }
 };
